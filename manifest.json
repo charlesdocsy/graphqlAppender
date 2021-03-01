@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "GraphQlUrlAppender",
+    "version": "1.0.0",
+    "description": "Append the operationName, from the GraphQL Request body, as a query string to the GraphQL URL",
+    "short_name": "Append the operationName, from the GraphQL Request body, as a query string to the GraphQL URL",
+    "permissions": [
+        "*://*.nytimes.com/graphql/v2",
+        "webRequest",
+        "webRequestBlocking"
+    ], 
+    "background": {
+        "scripts": ["background.js"]
+      },
+    "icons": { 
+        "16": "icon.png",
+        "48": "icon.png",
+       "128": "icon.png" 
+    }
+}
